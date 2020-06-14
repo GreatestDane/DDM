@@ -1,0 +1,6 @@
+body {
+    background:url('/images/background.jpg');
+    background-repeat:no-repeat;
+    justify-content: center;
+    /* margin-bottom:1000px  */
+}
