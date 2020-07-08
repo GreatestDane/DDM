@@ -1,7 +1,12 @@
 body {
     background:url('/images/background.jpg') no-repeat center center fixed;
     background-size: 50%;
-    margin-bottom: 3000px;
+    /* margin-bottom: 3000px; */
+}
+
+#bottom {
+    margin-top: 3000px;
+    margin-left: 450px;
 }
 
 
