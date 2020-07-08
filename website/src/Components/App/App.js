@@ -6,8 +6,14 @@ import Home from '../Home/Home.js'
 function App() {
   return (
     <div>
-      <Header />
-      <Home />
+      <BrowserRouter>
+      <React.Fragment>
+        <Header />
+        <Switch>
+          <Route path="/" component={Home} exact />
+        </Switch>
+      </React.Fragment>
+      </BrowserRouter>
     </div>
   );
 }
