@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Header from '../Elements/Header/Header.js'
 import Home from '../Home/Home.js'
+import VideoGallery from '../Elements/VideoGallery/Gallery/VideoGallery.js'
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <Header />
         <Switch>
           <Route path="/" component={Home} exact />
+          <Route path='/videogallery' component={VideoGallery} exact />
         </Switch>
       </React.Fragment>
       </BrowserRouter>
